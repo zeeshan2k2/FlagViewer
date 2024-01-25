@@ -21,7 +21,9 @@ class ViewController: UITableViewController {
         let flags = try! fm.contentsOfDirectory(atPath: path)
         
         for flag in flags {
-            if flag.hasSuffix(".png") {
+            if flag.hasPrefix("AppIcon") {
+                continue
+            } else if flag.hasSuffix(".png") {
                 pictures_hd.append(flag)
             }
         }

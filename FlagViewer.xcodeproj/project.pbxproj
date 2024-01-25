@@ -1303,6 +1303,8 @@
 				DEVELOPMENT_TEAM = N7L3GJ6Y8X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FlagViewer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1332,6 +1334,8 @@
 				DEVELOPMENT_TEAM = N7L3GJ6Y8X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FlagViewer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
