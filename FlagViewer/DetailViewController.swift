@@ -81,8 +81,8 @@ class DetailViewController: UIViewController {
         }
         
 //      this shares two things an image and a name the commented line below only shares an image
-        let vc = UIActivityViewController(activityItems: [title ?? "Unknown country", image], applicationActivities: [])
-//        let vc = UIActivityViewController(activityItems: [image], applicationActivities: [])
+//        let vc = UIActivityViewController(activityItems: [title ?? "Unknown country", image], applicationActivities: [])
+        let vc = UIActivityViewController(activityItems: [image], applicationActivities: [])
         vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
         present(vc, animated: true)
     }
